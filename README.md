@@ -6,3 +6,6 @@ This was fun to build as we incorporated using moment.js, along with localStorag
 
 Link to live URL: 
 
+https://stephenmulrow.github.io/Work-Day-Scheduler/
+
+image.png
