@@ -22,21 +22,153 @@ $(document).ready(function () {
   });
 
 
-  $(".saveBtn").click(function (event) {
-    event.preventDefault();
-    var value = $(this).siblings(".to-do").val();
-    var time = $(this).parent().attr("id").split("-")[1];
-    localStorage.setItem(time, value);
-  });
 
- 
-  $("#hour-09 .to-do").val(localStorage.getItem("09"));
-  $("#hour-10 .to-do").val(localStorage.getItem("10"));
-  $("#hour-11 .to-do").val(localStorage.getItem("11"));
-  $("#hour-12 .to-do").val(localStorage.getItem("12"));
-  $("#hour-13 .to-do").val(localStorage.getItem("13"));
-  $("#hour-14 .to-do").val(localStorage.getItem("14"));
-  $("#hour-15 .to-do").val(localStorage.getItem("15"));
-  $("#hour-16 .to-do").val(localStorage.getItem("16"));
-  $("#hour-17 .to-do").val(localStorage.getItem("17"));
+  
+  $(".saveBtn").click(function (event) {
+    event.preventDefault()
+    
+    var toDo = document.querySelector(".to-do9")
+    var textEntry = toDo.value
+
+    localStorage.setItem("to-do9" , textEntry)
+
+})
+
 });
+ var listNineAm = localStorage.getItem("to-do9")
+
+ if(listNineAm) {
+  document.getElementById("hour9").value = listNineAm
+ }
+
+
+
+ $(".saveBtn").click(function (event) {
+  event.preventDefault()
+  
+  var toDo = document.querySelector(".to-do10")
+  var textEntry = toDo.value
+
+  localStorage.setItem("to-do10" , textEntry)
+
+})
+
+var listNineAm = localStorage.getItem("to-do10")
+
+if(listNineAm) {
+document.getElementById("hour10").value = listNineAm
+}
+
+ $(".saveBtn").click(function (event) {
+  event.preventDefault()
+  
+  var toDo = document.querySelector(".to-do11")
+  var textEntry = toDo.value
+
+  localStorage.setItem("to-do11" , textEntry)
+
+})
+
+var listNineAm = localStorage.getItem("to-do11")
+
+if(listNineAm) {
+document.getElementById("hour11").value = listNineAm
+}
+
+ $(".saveBtn").click(function (event) {
+  event.preventDefault()
+  
+  var toDo = document.querySelector(".to-do12")
+  var textEntry = toDo.value
+
+  localStorage.setItem("to-do12" , textEntry)
+
+})
+
+var listNineAm = localStorage.getItem("to-do12")
+
+if(listNineAm) {
+document.getElementById("hour12").value = listNineAm
+}
+
+ $(".saveBtn").click(function (event) {
+  event.preventDefault()
+  
+  var toDo = document.querySelector(".to-do13")
+  var textEntry = toDo.value
+
+  localStorage.setItem("to-do13" , textEntry)
+
+})
+
+var listNineAm = localStorage.getItem("to-do13")
+
+if(listNineAm) {
+document.getElementById("hour13").value = listNineAm
+}
+
+ $(".saveBtn").click(function (event) {
+  event.preventDefault()
+  
+  var toDo = document.querySelector(".to-do14")
+  var textEntry = toDo.value
+
+  localStorage.setItem("to-do14" , textEntry)
+
+})
+
+var listNineAm = localStorage.getItem("to-do14")
+
+if(listNineAm) {
+document.getElementById("hour14").value = listNineAm
+}
+
+ $(".saveBtn").click(function (event) {
+  event.preventDefault()
+  
+  var toDo = document.querySelector(".to-do15")
+  var textEntry = toDo.value
+
+  localStorage.setItem("to-do15" , textEntry)
+
+})
+
+var listNineAm = localStorage.getItem("to-do15")
+
+if(listNineAm) {
+document.getElementById("hour15").value = listNineAm
+}
+
+ $(".saveBtn").click(function (event) {
+  event.preventDefault()
+  
+  var toDo = document.querySelector(".to-do16")
+  var textEntry = toDo.value
+
+  localStorage.setItem("to-do16" , textEntry)
+
+})
+
+var listNineAm = localStorage.getItem("to-do16")
+
+if(listNineAm) {
+document.getElementById("hour16").value = listNineAm
+}
+
+ $(".saveBtn").click(function (event) {
+  event.preventDefault()
+  
+  var toDo = document.querySelector(".to-do17")
+  var textEntry = toDo.value
+
+  localStorage.setItem("to-do17" , textEntry)
+
+})
+
+var listNineAm = localStorage.getItem("to-do17")
+
+if(listNineAm) {
+document.getElementById("hour17").value = listNineAm
+}
+
+
